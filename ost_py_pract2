@@ -1,0 +1,8 @@
+# prgm to check whether given number is multiple of 5 of not
+num=int(input("enter number:"))
+n=num%5
+if n==0:
+  print("given number is multiple of 5")
+else:
+  print("given number is not multiple of 5")
+  
